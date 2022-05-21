@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0253A02839432600E5CE80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F02539F2839432600E5CE80 /* Assets.xcassets */; };
+		5F0253A22839458E00E5CE80 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0253A12839458E00E5CE80 /* UIColor+Today.swift */; };
 		5F7BA9BC2837EBC20029C527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BA9BB2837EBC20029C527 /* AppDelegate.swift */; };
 		5F7BA9BE2837EBC20029C527 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BA9BD2837EBC20029C527 /* SceneDelegate.swift */; };
 		5F7BA9C02837EBC20029C527 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BA9BF2837EBC20029C527 /* ReminderListViewController.swift */; };
 		5F7BA9C32837EBC20029C527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7BA9C12837EBC20029C527 /* Main.storyboard */; };
-		5F7BA9C52837EBC30029C527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7BA9C42837EBC30029C527 /* Assets.xcassets */; };
 		5F7BA9C82837EBC30029C527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7BA9C62837EBC30029C527 /* LaunchScreen.storyboard */; };
 		5F7BA9D12837EFD70029C527 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BA9D02837EFD70029C527 /* Reminder.swift */; };
 		5F7BA9D42837F62F0029C527 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5F7BA9D32837F62E0029C527 /* LICENSE.txt */; };
+		5F7BA9D6283939450029C527 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BA9D5283939450029C527 /* Date+Today.swift */; };
+		5F7BA9D928393D0A0029C527 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BA9D828393D0A0029C527 /* ReminderListViewController+DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F02539F2839432600E5CE80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F0253A12839458E00E5CE80 /* UIColor+Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
 		5F7BA9B82837EBC20029C527 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F7BA9BB2837EBC20029C527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F7BA9BD2837EBC20029C527 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5F7BA9BF2837EBC20029C527 /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		5F7BA9C22837EBC20029C527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5F7BA9C42837EBC30029C527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F7BA9C72837EBC30029C527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F7BA9C92837EBC30029C527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F7BA9D02837EFD70029C527 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		5F7BA9D32837F62E0029C527 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		5F7BA9D5283939450029C527 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
+		5F7BA9D828393D0A0029C527 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,12 @@
 		5F7BA9BA2837EBC20029C527 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				5F7BA9CF2837EFB50029C527 /* Models */,
 				5F7BA9BB2837EBC20029C527 /* AppDelegate.swift */,
 				5F7BA9BD2837EBC20029C527 /* SceneDelegate.swift */,
-				5F7BA9BF2837EBC20029C527 /* ReminderListViewController.swift */,
+				5F7BA9D728393CB60029C527 /* ListViewController */,
 				5F7BA9C12837EBC20029C527 /* Main.storyboard */,
-				5F7BA9CF2837EFB50029C527 /* Models */,
-				5F7BA9C42837EBC30029C527 /* Assets.xcassets */,
+				5F02539F2839432600E5CE80 /* Assets.xcassets */,
 				5F7BA9C62837EBC30029C527 /* LaunchScreen.storyboard */,
 				5F7BA9C92837EBC30029C527 /* Info.plist */,
 				5F7BA9D22837F62E0029C527 /* LICENSE */,
@@ -76,7 +82,9 @@
 		5F7BA9CF2837EFB50029C527 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5F7BA9D5283939450029C527 /* Date+Today.swift */,
 				5F7BA9D02837EFD70029C527 /* Reminder.swift */,
+				5F0253A12839458E00E5CE80 /* UIColor+Today.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -88,6 +96,15 @@
 			);
 			path = LICENSE;
 			sourceTree = SOURCE_ROOT;
+		};
+		5F7BA9D728393CB60029C527 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5F7BA9BF2837EBC20029C527 /* ReminderListViewController.swift */,
+				5F7BA9D828393D0A0029C527 /* ReminderListViewController+DataSource.swift */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -149,7 +166,7 @@
 			files = (
 				5F7BA9D42837F62F0029C527 /* LICENSE.txt in Resources */,
 				5F7BA9C82837EBC30029C527 /* LaunchScreen.storyboard in Resources */,
-				5F7BA9C52837EBC30029C527 /* Assets.xcassets in Resources */,
+				5F0253A02839432600E5CE80 /* Assets.xcassets in Resources */,
 				5F7BA9C32837EBC20029C527 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,10 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F0253A22839458E00E5CE80 /* UIColor+Today.swift in Sources */,
 				5F7BA9C02837EBC20029C527 /* ReminderListViewController.swift in Sources */,
+				5F7BA9D6283939450029C527 /* Date+Today.swift in Sources */,
 				5F7BA9BC2837EBC20029C527 /* AppDelegate.swift in Sources */,
 				5F7BA9BE2837EBC20029C527 /* SceneDelegate.swift in Sources */,
 				5F7BA9D12837EFD70029C527 /* Reminder.swift in Sources */,
+				5F7BA9D928393D0A0029C527 /* ReminderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
