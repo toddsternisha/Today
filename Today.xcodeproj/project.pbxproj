@@ -22,6 +22,7 @@
 		5F7BA9D42837F62F0029C527 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5F7BA9D32837F62E0029C527 /* LICENSE.txt */; };
 		5F7BA9D6283939450029C527 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BA9D5283939450029C527 /* Date+Today.swift */; };
 		5F7BA9D928393D0A0029C527 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7BA9D828393D0A0029C527 /* ReminderListViewController+DataSource.swift */; };
+		5FEFF995283A729F0038CAB1 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFF994283A729F0038CAB1 /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		5F7BA9D32837F62E0029C527 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		5F7BA9D5283939450029C527 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 		5F7BA9D828393D0A0029C527 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
+		5FEFF994283A729F0038CAB1 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				5F0253A92839A58C00E5CE80 /* ReminderViewController.swift */,
 				5F0253AC2839A76600E5CE80 /* ReminderViewController+Row.swift */,
+				5FEFF994283A729F0038CAB1 /* ReminderViewController+Section.swift */,
 			);
 			path = DetailViewController;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FEFF995283A729F0038CAB1 /* ReminderViewController+Section.swift in Sources */,
 				5F0253A22839458E00E5CE80 /* UIColor+Today.swift in Sources */,
 				5F0253A828399AD300E5CE80 /* ReminderListViewController+Actions.swift in Sources */,
 				5F0253AA2839A58C00E5CE80 /* ReminderViewController.swift in Sources */,
