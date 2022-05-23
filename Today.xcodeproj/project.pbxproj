@@ -35,6 +35,7 @@
 		5FE6F257283AF64E00807FB0 /* EKEventStore+AsyncFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6F256283AF64E00807FB0 /* EKEventStore+AsyncFetch.swift */; };
 		5FE6F259283AF7D600807FB0 /* Reminder+EKReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6F258283AF7D600807FB0 /* Reminder+EKReminder.swift */; };
 		5FE6F25B283AF8CC00807FB0 /* ReminderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6F25A283AF8CC00807FB0 /* ReminderStore.swift */; };
+		5FE6F25D283B047600807FB0 /* EKReminder+Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6F25C283B047600807FB0 /* EKReminder+Reminder.swift */; };
 		5FEFF995283A729F0038CAB1 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFF994283A729F0038CAB1 /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		5FE6F256283AF64E00807FB0 /* EKEventStore+AsyncFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKEventStore+AsyncFetch.swift"; sourceTree = "<group>"; };
 		5FE6F258283AF7D600807FB0 /* Reminder+EKReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+EKReminder.swift"; sourceTree = "<group>"; };
 		5FE6F25A283AF8CC00807FB0 /* ReminderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStore.swift; sourceTree = "<group>"; };
+		5FE6F25C283B047600807FB0 /* EKReminder+Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKReminder+Reminder.swift"; sourceTree = "<group>"; };
 		5FEFF994283A729F0038CAB1 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +136,7 @@
 				5FE6F252283AE6CB00807FB0 /* CAGradientLayer+ListStyle.swift */,
 				5F7BA9D5283939450029C527 /* Date+Today.swift */,
 				5FE6F256283AF64E00807FB0 /* EKEventStore+AsyncFetch.swift */,
+				5FE6F25C283B047600807FB0 /* EKReminder+Reminder.swift */,
 				5F7BA9D02837EFD70029C527 /* Reminder.swift */,
 				5FE6F24E283AC88600807FB0 /* ReminderListStyle.swift */,
 				5FE6F25A283AF8CC00807FB0 /* ReminderStore.swift */,
@@ -273,6 +276,7 @@
 				5FE6F253283AE6CB00807FB0 /* CAGradientLayer+ListStyle.swift in Sources */,
 				5F7BA9D928393D0A0029C527 /* ReminderListViewController+DataSource.swift in Sources */,
 				5FE6F25B283AF8CC00807FB0 /* ReminderStore.swift in Sources */,
+				5FE6F25D283B047600807FB0 /* EKReminder+Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
