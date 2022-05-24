@@ -6,7 +6,7 @@ See LICENSE folder for this sample’s licensing information.
 //  UIColor+Today.swift
 //  Today
 //
-//  Added by Todd Sternisha on 5/21/22.
+//  Added directly from sample files by Todd Sternisha on 5/21/22.
 //
 
 import UIKit

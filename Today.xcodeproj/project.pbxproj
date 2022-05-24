@@ -36,6 +36,7 @@
 		5FE6F259283AF7D600807FB0 /* Reminder+EKReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6F258283AF7D600807FB0 /* Reminder+EKReminder.swift */; };
 		5FE6F25B283AF8CC00807FB0 /* ReminderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6F25A283AF8CC00807FB0 /* ReminderStore.swift */; };
 		5FE6F25D283B047600807FB0 /* EKReminder+Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6F25C283B047600807FB0 /* EKReminder+Reminder.swift */; };
+		5FEC9404283D7CE300B295C2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5FEC9403283D7CE300B295C2 /* README.md */; };
 		5FEFF995283A729F0038CAB1 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFF994283A729F0038CAB1 /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		5FE6F258283AF7D600807FB0 /* Reminder+EKReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+EKReminder.swift"; sourceTree = "<group>"; };
 		5FE6F25A283AF8CC00807FB0 /* ReminderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStore.swift; sourceTree = "<group>"; };
 		5FE6F25C283B047600807FB0 /* EKReminder+Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKReminder+Reminder.swift"; sourceTree = "<group>"; };
+		5FEC9403283D7CE300B295C2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		5FEFF994283A729F0038CAB1 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				5F7BA9BA2837EBC20029C527 /* Today */,
+				5FEC9403283D7CE300B295C2 /* README.md */,
 				5F7BA9B92837EBC20029C527 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			files = (
 				5F7BA9D42837F62F0029C527 /* LICENSE.txt in Resources */,
 				5F7BA9C82837EBC30029C527 /* LaunchScreen.storyboard in Resources */,
+				5FEC9404283D7CE300B295C2 /* README.md in Resources */,
 				5F0253A02839432600E5CE80 /* Assets.xcassets in Resources */,
 				5F7BA9C32837EBC20029C527 /* Main.storyboard in Resources */,
 			);
@@ -352,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -406,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
